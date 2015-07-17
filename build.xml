@@ -23,6 +23,7 @@
   <target name="dist" depends="compile"
         description="generate the distribution">
     <echo message="Hello, world"/>
+    <echo message="Hello, world"/>
     <!-- Create the distribution directory -->
     <mkdir dir="${dist}/lib"/>
 
